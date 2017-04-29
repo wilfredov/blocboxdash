@@ -1,0 +1,933 @@
+html, body {
+	font-size: 20px;
+	font-family: Titillium Web; sans-serif;
+	
+	
+}
+
+p {
+
+	color: white;
+}
+ 
+h1 {
+
+	font-weight: 700;
+	font-size: 1.8em;
+	color: #4A90E2;
+	text-align: left;
+	line-height: 1em;
+}
+
+h2 {
+
+
+	font-weight: 400;
+	font-size: 1em;
+	color: white;
+	letter-spacing: .2px;
+	
+}	
+
+
+
+h3 {
+
+
+	font-weight: 400;
+	font-size: 1.4em;
+	color: #4A4A4A;
+
+}
+
+
+h4 {
+
+	font-size: .6em;
+	font-weight: 100;
+	color: grey;
+	text-align: center;
+
+
+
+}
+
+h5 {
+
+
+
+
+
+
+
+}
+
+ul {
+
+	/*important to remember*/
+	-webkit-padding-start: 0px;
+	list-style: none;
+	font-size: 18px;
+
+}
+
+
+
+.contain {
+	width: 1200px;
+	margin: 0 auto;
+	/*border: .5px dotted black;*/
+}
+
+@media (min-width: 768px ) {
+	.contain {
+		width: 720px;
+	}
+}
+
+@media (min-width: 900px ) {
+	.contain {
+		width: 880px;
+	}
+}
+
+@media (min-width: 1180px ) {
+	.contain {
+		width: 1140px;
+	}
+}
+
+.main-container { 
+	width: 100%;
+	
+ }
+
+
+
+/*Navigation Area*/
+
+.navigation {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 25px;
+	/*border: 1px solid red;*/
+	
+
+
+}
+
+.nav1, .nav2 {
+
+	width: 50%;
+	float: left;
+
+
+}
+
+.nav1, img {
+
+	margin-top: 5px;
+	padding-left: -130px;
+	/*border: 1px solid green;*/
+
+
+}
+
+
+.signup_text {
+
+	font-weight: 600;
+	font-size: .8em;
+	float: right;
+
+}
+
+/* unvisited link */
+.signup_text a:link {
+    background-color: #EC8200;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+
+}
+
+/* visited link */
+.signup_text a:visited {
+    background-color: #EC8200;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+/* mouse over link */
+.signup_text a:hover {
+    background-color: white;
+    color: #EC8200;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+/* selected link */
+.signup_text a:active {
+    background-color: #EC8200;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+/* Hero Area - Sign Up Button */
+
+.hero {
+
+	background-image: url("../images/primaryhero.png");
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 15px;
+
+
+	
+}
+
+.hero1 {
+
+	width: 49%; 
+	margin: 200px 0 0 0 ;
+	padding-bottom: 400px;
+	float: left;
+	line-height: 1.2em;
+	
+
+
+}
+
+
+.signup_btn a:link {
+
+	width: 30%;
+	background-color: #EC8200;
+    color: #EC8200;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 16px;
+
+
+
+}
+
+.signup_btn a:hover {
+    background-color: white;
+    color: #EC8200;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+/*Features Area*/
+
+
+
+.features {
+	width: 100%;
+	padding: 5em 0;
+	margin: 0 auto;
+	float: left;
+	background: #4A90E2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#80C3F3, #4A90E2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#80C3F3, #4A90E2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#80C3F3, #4A90E2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#80C3F3, #4A90E2); /* Standard syntax (must be last) */
+    /*border: 1px solid red;*/
+	
+	
+}
+
+
+
+.features-photos, .features-notes, .features-docs {
+
+	width: 31%;
+	float: left;
+
+
+}
+
+.contain img {
+
+	
+	padding-left: 130px;
+	/*border: 1px solid white;*/
+
+
+}
+
+
+/*@media (min-width: 768px) {
+	.features-photos, .features-docs, .features-notes {
+		width: 31%;
+		float: left;
+	}
+
+	#container {
+
+		width: 100%;
+		float: left;
+		border: 1px solid green;
+	}
+}*/
+
+
+
+.features-photos h2, .features-notes h2, .features-docs h2 {
+
+	text-align: center;
+
+
+}
+
+
+.features-photos ul, .features-notes ul, .features-docs ul {
+
+
+	font-weight: 200;
+	font-size: 16px;
+	color: white;
+	letter-spacing: .2px;
+	line-height: 1.5em;
+	text-align: center;
+
+
+}
+
+
+
+
+
+
+/*Content Area*/
+
+.midsec-hero2, .midsec-hero3 {
+
+	width: 100%;
+	background-image: url("../images/womenofcolor-hero3.png");
+	background-size: cover;
+	background-position: center;
+	float: left;
+	
+
+
+}
+
+.content1  {
+
+	width: 50%;
+	float: left;
+	opacity: 0.97;
+	background: rgba(207,227,241,0.72);
+	padding: 275px 0;
+
+}
+
+.content1-text, .content2-text {
+
+	width: 50%;
+	margin-right: 50px;
+	float: right;
+}
+
+.content1-text h3 {
+	font-weight: 600;
+	color: #4A4A4A;
+	text-align: right;
+}
+
+.content1-text p {
+
+	line-height: 1.2em;
+	font-size: .9em;
+	color: #4A4A4A;
+	letter-spacing: 0px;
+	text-align: right;
+}
+
+
+.midsec-hero3 {
+
+	background-image: url("../images/access-photo.png");
+
+}
+
+.content2  {
+
+
+	width: 50%;
+	float: right;
+	opacity: 0.97;
+	background: rgba(207,227,241,0.72);
+	padding: 275px 0;
+
+
+	
+}
+
+.content2-text {
+
+
+	margin-left: 50px;
+	float: left;
+}
+
+
+.content2-text h3 {
+	font-weight: 600;
+	color: #4A4A4A;
+	text-align: left;
+}
+
+
+.content2-text p {
+
+	line-height: 1.2em;
+	/*padding-right: 800px;*/
+	font-size: .9em;
+	color: #4A4A4A;
+	letter-spacing: 0px;
+	text-align: left;
+
+}
+/*Who Loves Kerning Area*/
+
+.promotional {
+	
+	background-image: linear-gradient(-180deg, #E9F3F9 0%, #CFE3F1 100%);
+
+
+}
+
+
+.promoContain {
+
+	
+	vertical-align: middle;
+	float: left;
+	
+}
+
+.promoContain h5 {
+
+	font-weight: 200;
+	color: #4A90E2;
+	font-size: 1em;
+	line-height: .2em;
+	
+
+}
+
+
+.promoContain ul li {
+
+	/*min-width: 40px;*/
+	/*max-width: 257px;*/
+	float: left;
+	margin-bottom: 25px;
+
+
+}
+
+.loves1 {
+
+	float: left;
+	margin-left: 330px;
+	vertical-align: middle;
+}
+
+.loves1 img {
+
+	padding-right: 30px;
+}
+
+
+
+
+
+/*Testimonials*/
+
+.testimonials {
+
+	width: 100%;
+	float: left;
+	background-image: url("../images/testimonial_pic.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	
+
+
+
+}
+
+.content-transcolor {
+
+	width: 100%;
+	/*padding: 100px 0;*/
+	background: rgba(207,227,241,0.72);
+	float: left;
+
+}
+
+
+.testimonials1 {
+	width: 50%;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+	/*background-color: green;*/
+	/*border: 1px solid red;*/
+
+
+}
+
+
+
+
+
+.testimonials1 h1 {
+
+	width: 100%;
+	text-align: center;
+	
+
+
+}
+
+.testimonials1 blockquote {
+
+	font-size: 1em;
+	color: #384555;
+
+	
+
+
+}
+
+.userid {
+
+	width: 50%;
+	background-color: green;
+	margin: 0 auto;
+
+}
+
+.userid img {
+
+	width: 50px;
+	height: 50px;
+	/*float:left;*/
+
+	}
+
+.userid cite {
+
+	
+	font-weight: 200;
+	font-size: 1em;
+	color: white;
+
+
+}
+
+
+
+.userid p {
+
+	
+	font-weight: 600;
+	font-size: .7em;
+	color: white;
+	float: left;
+
+
+}
+
+
+
+/*Sign Up Box*/
+
+.signup {
+
+	width: 100%;
+	background-image: linear-gradient(-180deg, #80C3F3 0%, #4A90E2 100%);
+	float: left;
+	/*border: 1px solid red;*/
+
+}
+
+
+.signup1, .signup2 {
+	width: 49%;
+	float: left;
+	line-height: .1em;
+	padding: 50px 0;
+	/*border: 1px solid white;*/
+
+
+}
+
+.signup2 img {
+
+	padding-top: 55px;
+}
+
+.legal {
+
+	width: 100%;
+	float: left;
+	padding-bottom: 10px;
+}
+
+
+
+
+#createLogIn {
+    width: 90%;
+    float: left;
+    /*margin: auto;*/
+   
+    
+}
+
+#createLogIn h1 {
+  
+    font-size: 1.62em;
+    color: white;
+    display: block;
+    width: 100%;
+    padding-bottom: .1em;
+    margin-bottom: .2em;
+    line-height: .5em;
+  
+}
+
+#createLogIn label {
+    font-size: 10px;
+    display: block;
+    float: right;
+    clear: left;
+    line-height: 2.4;
+    margin: -30px 0 0;
+    padding: 0;
+    width: 190px;
+    height: 20px;
+}
+
+input[type="text"],
+input[type="submit"] {
+    clear: both;
+    float: left;
+    display: block;
+    background: #3F81CE;
+    margin: 6px 0;
+    padding: 4px 0px 4px 10px;
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    color: #34495e;
+    font-size: 16px;
+    border: 0;
+}
+
+input[type=submit] {
+    background: #EC8200;
+    color: white;
+    font-weight: 400;
+    border: 0;
+    margin: 10px 0 0;
+    width: 50%;
+    height: 40px;
+}
+
+
+
+input[type=text]:not([value*=" "]):active,
+input[type=text]:not([value*=" "]):focus {
+    
+    padding-left: :;
+    : x;
+}
+input[type=submit]:active,
+input[type=submit]:focus {
+    background: white;
+    color: blue;
+    border: 0;
+    position: relative;
+    
+}
+
+/*Pricing Area*/
+
+.price_btn {
+
+
+	  background-color: #EC8200;
+    width: 127px;
+    height: 127px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 130px;
+    margin-top: 20px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+
+}
+
+.price_btn a:link {
+
+
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  
+   
+}
+
+.price_btn a:visited {
+
+
+	background-color: #EC8200;
+    color: white;
+    width: 127px;
+    height: 127px;
+   /* text-align: center;
+    text-decoration: none;
+    display: inline-block;*/
+    border-radius: 50%;
+
+}
+
+
+.price_btn a:hover {
+
+	background-color: #EC8200;
+    color: white;
+    width: 127px;
+    height: 127px;
+   /* text-align: center;
+    text-decoration: none;
+    display: inline-block;*/
+    border-radius: 50%;
+
+
+
+
+}
+
+
+.price_btn a:active {
+
+
+	background-color: #EC8200;
+    color: white;
+    width: 127px;
+    height: 127px;
+   /* text-align: center;
+    text-decoration: none;
+    display: inline-block;*/
+    border-radius: 50%;
+
+
+}
+
+
+
+.pricing {
+	width: 100%;
+	background-image: linear-gradient(-180deg, #E9F3F9 0%, #CFE3F1 100%);
+	float: left;
+
+	
+
+
+}
+
+.pricing h1 {
+
+	width: 100%;
+	text-align: center;
+	color: #4A90E2;
+	/*float: left;*/
+
+
+	
+}
+
+/*.content {
+
+
+	 width: 100%;
+  	 padding-top: 20px;
+  	 float: left;
+}*/
+
+.basicPlan {
+
+	width: 33%;
+    background-color: #4A90E2;
+    float: left;
+    /*border: 1px solid red;*/
+
+}
+
+
+.creativePlan  {
+	
+	width: 33%;
+	float: left;
+	background-color: transparent;
+	/*border: 1px solid red;*/
+
+
+	
+}
+
+
+.directorPlan {
+
+	width: 33%;
+    background-color: #4A90E2;
+    float: left;
+    /*border: 1px solid red;*/
+
+
+
+}
+
+
+
+.basicPlan ul li, .directorPlan ul li {
+
+	font-weight: 400;
+	color: white;
+    text-align: center;
+    line-height: 1.2em; 
+    
+   }
+ 
+
+.creativePlan ul li {
+
+	font-weight: 400;
+	color: #4A90E2;
+    text-align: center;
+    line-height: 1.2em; 
+    
+   }
+
+
+.basicPlan p, .directorPlan p {
+
+	color: white;
+	text-align: center;
+}
+
+.creativePlan p {
+
+	color: #4A90E2;
+	text-align: center;
+}
+/*Footer Area*/
+
+footer {
+		width: 100%;
+ 		background-color: grey; 
+		float: left;
+
+	}
+.containFooter {
+
+	width: 1080px;
+	height: 200px;
+	margin: 0 auto;
+	/*border: 1px dotted black;*/
+
+}
+
+.titlebar { 
+  width: 100%;
+  float: left;
+  
+}
+
+
+
+.titlebar li {
+
+	margin: 0px auto;
+	padding-right: 20px;
+  	padding-bottom: 20px;
+	list-style-type: none;
+  	background-color: grey;
+  	text-align: left;
+	font-size: 20px;
+	float: left;
+  	color: white;
+  
+}
+
+#products {
+  
+
+  padding-left: 53px;
+  
+}
+
+.linksFooter {
+  width: 100%;
+  padding-bottom: 100px;
+  float: left;
+}
+
+ul.companyList, .supportList, .productsList, .connectList  {
+  
+  color: white;
+  float: left;
+  padding-right: 35px;
+  font-size: 16px;
+  
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+

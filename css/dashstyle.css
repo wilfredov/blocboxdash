@@ -1,0 +1,147 @@
+html, body {
+	font-size: 20px;
+	font-family: Titillium Web; sans-serif;
+	background-color: #F0F5F9;
+	border: 1px solid red;
+	
+	
+}
+
+.main-container {
+
+	
+
+}
+
+.contain {
+
+	/*width: 1200px;*/
+	margin: 0 auto;
+}
+
+
+
+/*Navigation Area*/
+
+nav {
+	
+	
+	background-color: black;
+	
+}
+
+.nav1 {
+
+	width: 50%;
+	padding-bottom: 27px;
+	float: left;
+	background-color: green;
+
+
+
+}
+
+.logo {
+
+	width: 150px;
+	height: 33px;
+	background-color: pink;
+	margin-top: 20px;
+	float: left;
+
+}
+
+.category, .new-selection{
+
+	background-color: white;
+	width: 100px;
+	height: 25px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+
+
+.user {
+
+	width: 50%;
+	padding-top: 80px;
+	float: left;
+	background-color: blue;
+	/*margin-left: 24px;*/
+
+
+
+}
+
+/*Secondary Navigation*/
+
+.leftside, .rightside {
+
+	width: 50%;
+	padding-top: 60px;
+	background-color: red;
+	float: left;
+	margin-top: 20px;
+}
+
+.rightside {
+
+	background-color: pink;
+}
+
+/*Gallery Area*/
+
+.flex-contain {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: #dadada;
+  width: 100%;
+  min-height: 200px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  .flex-contain {
+    width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .flex-contain {
+    width: 740px;
+  }
+  .flex-item {
+    background: #dadada;
+    width: 46%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .flex-contain {
+    width: 980px;
+  }
+  .flex-item {
+    background: #dadada;
+    width: 25%;
+  }
+  
+  .quarters {
+    width: 22%;
+  }
+} 
+
+
